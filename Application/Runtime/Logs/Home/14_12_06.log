@@ -1,0 +1,687 @@
+[ 2014-12-06T10:44:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2014-12-06T10:44:17+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002955s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.005546s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000160s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2014-12-06T10:44:31+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.003867s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000456s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000212s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2014-12-06T10:44:33+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.004161s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000458s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000194s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2014-12-06T10:44:33+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002847s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000321s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000137s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2014-12-06T10:44:34+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.004567s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000545s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000233s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2014-12-06T10:44:34+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.004210s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000509s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000230s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2014-12-06T10:44:34+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002319s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000288s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000109s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2014-12-06T10:44:34+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002418s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000122s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002612s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000294s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000105s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002453s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000284s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000109s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.004234s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000347s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000160s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002893s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000337s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000157s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002886s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000143s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002860s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000352s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000160s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002679s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000149s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002422s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000271s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000124s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2014-12-06T10:44:35+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002428s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000247s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000089s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000369s ]
+
+[ 2014-12-06T10:44:36+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.005241s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000696s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000286s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2014-12-06T10:44:36+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002853s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000346s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000159s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2014-12-06T10:44:36+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002938s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000345s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000160s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2014-12-06T10:44:36+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002821s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000135s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2014-12-06T10:44:36+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002315s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000275s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000097s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2014-12-06T10:44:36+08:00 ] 127.0.0.1 /index.php/Home/consume/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `albean_bill` [ RunTime:0.002517s ]
+SQL: SELECT b.id,t.name,b.instruction,b.money,b.date,b.city FROM albean_bill b left join albean_bill_type t on b.type = t.t_id  ORDER BY date desc  [ RunTime:0.000263s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `albean_bill` LIMIT 1   [ RunTime:0.000137s ]
+NOTIC: [8] Undefined property: Think\Page::$lastSuffix D:\Amp\web\program\ThinkPHP\Library\Think\Page.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+NOTIC: [8] Undefined variable: albean_bill D:\Amp\web\program\Application\Runtime\Cache\Home\7a5d4f16b7ca61af615f8ffa1c40bf4c.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
