@@ -19,7 +19,7 @@
 <div class="global-fluid">
     <div class="global-container">
         <div id="header">
-            <div ><center><h3>后台管理</h3></center></div>
+
         </div>
         <div id="sidebar"><div style="width: 100%;">
     <ul id="accordion" class="accordion">
@@ -59,6 +59,17 @@
     </ul>
 </div>
 </div>
+    </div>
+</div>
+<!--主题内容-->
+
+<div id="content">
+    <div >
+        <ol class="breadcrumb" >
+            <li><a href="#">网站管理</a></li>
+            <li><a href="#">菜单管理</a></li>
+            <li class="active">配置菜单</li>
+        </ol>
     </div>
 </div>
 

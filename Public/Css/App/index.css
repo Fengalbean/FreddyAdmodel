@@ -1,6 +1,6 @@
 #header {
     position: relative;
-    height: 150px;
+    height: 100px;
 }
 
 .global-fluid {
@@ -13,10 +13,21 @@
     margin-right: auto;
 }
 #sidebar {
-    position: fixed;
-    top: 200px;
+    position: absolute;
+    top: 150px;
     left: 100px;
     min-height: 600px;
     width: 200px;
-    border: 2px solid #8E44AD;
+    border: 2px solid #808080;
+}
+
+#content {
+    /*width: 1170px;*/
+    width: 70%;
+    min-width: 1000px;
+    min-height: 700px;
+    background: #dcdcdc;
+    position: relative;
+    margin-left: 350px;
+    margin-top: 50px;
 }

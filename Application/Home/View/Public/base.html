@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" type="text/css" href="__CSS__/Base/bootstrap/3.3.0/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="__CSS__/App/index.css">
+    <block name="css"></block>
     <!--<link rel="stylesheet" type="text/css" href="__CSS__/Base/easyui/default/easyui.css">-->
     <!--<link rel="stylesheet" type="text/css" href="__CSS__/Base/easyui/icon.css">-->
     <link rel="stylesheet" type="text/css" href="__CSS__/Base/siderbar/css/font-awesome.min.css">
@@ -13,18 +14,30 @@
     <link rel="stylesheet" type="text/css" href="__CSS__/Base/public.css">
     <script type="text/javascript" src="__JS__/Lib/seajs/2.3.0/sea.js"></script>
     <script type="text/javascript" src="__JS__/Conf/baseConfig.js"></script>
+
 </head>
 <body>
 <!--头部-->
 <div class="global-fluid">
     <div class="global-container">
         <div id="header">
-            <div ><center><h3>后台管理</h3></center></div>
+
         </div>
         <div id="sidebar"><include file="Public/sidebar" /></div>
     </div>
 </div>
 <!--主题内容-->
+
+<div id="content">
+    <div >
+        <ol class="breadcrumb" >
+            <li><a href="#">网站管理</a></li>
+            <li><a href="#">菜单管理</a></li>
+            <li class="active">配置菜单</li>
+        </ol>
+    </div>
+    <block name="main"></block>
+</div>
 
 <script type="text/javascript">
     seajs.use(['baseController.js','base/siderbar.js'], function(main,Accordion) {
