@@ -1412,7 +1412,7 @@ var prettyPrint;
    */
   function $prettyPrintOne(sourceCodeHtml, opt_langExtension, opt_numberLines) {
     var container = document.createElement('div');
-    // This could cause images to load and onload listeners to fire.
+    // This could cause Images to load and onload listeners to fire.
     // E.g. <img onerror="alert(1337)" src="nosuchimage.png">.
     // We assume that the inner HTML is from a trusted source.
     // The pre-tag is required for IE8 which strips newlines from innerHTML

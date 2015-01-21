@@ -20,6 +20,8 @@ define('APP_DEBUG',True);
 //关闭自动生成安全文件
 define('BUILD_DIR_SECURE', false);
 
+//define('BIND_MODULE','Admin');
+
 // 定义应用目录
 define('APP_PATH','./Application/');
 
