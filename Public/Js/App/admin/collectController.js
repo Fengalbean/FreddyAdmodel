@@ -3,12 +3,11 @@
  */
 define(function(require,exports,module){
     var $ = require('jquery');
-    var common = require('common');
-    var wxtDialog = require('base/wxtDialog');
     require('bootstrap');
     require('jquery_validate');
+    require('jquery_form');
+    var collectForm = $('#collectForm');
     function check(){
-        var collectForm = $('#collectForm');
         var consumeModal = $('#consumeModal');
         collectForm.validate({
             rules : {
@@ -47,15 +46,52 @@ define(function(require,exports,module){
                 }
             },
             submitHandler:function(form){
-                form.submit();
+                if($(form).data('is_submit') == 1){//防止重复提交
+                    return false;
+                }
+                $(form).data('is_submit',1);
+                $(form).ajaxSubmit({
+                    success:function(data){
+                        var data = JSON.parse(data);
+                        if(data.status == 1){
+                            //showModalDialog('asdadssda');
+                            //$('.close').hide();
+                            alert('添加成功！');
+                        }else{
+                            alert('添加失败！');
+                            //showModalDialog('xxx');
+                            //$('.close').hide();
+                        }
+                    }
+                });
             }
         });
     }
+    function bindEvent(){
+        $('#listForm').on('click','.js-collect-del',function(){
+            var id = $(this).data('id');
+            var host = window.location.host;
+            var href = $(this).data('href');
+            $.ajax({
+                url:host+href,
+                data:{id:id},
+                type:'post',
+                success:function(data){
+                    alert('xxx');
+                },
+                error:function(data){
+                    alert('aaaa');
+                }
+            });
+        });
+    }
+
+
 
     var main = {
         check:function(){
-           check();
-
+            check();
+            bindEvent();
         }
     };
     module.exports = main ;

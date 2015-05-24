@@ -46,11 +46,7 @@ class ConsumeController extends Controller {
             $data['city'] = I('post.consumecity','',htmlspecialchars);
             $bill = M('bill');
             $result = $bill->data($data)->add();
-            if($result){
-                $this->success('添加成功','index',1);
-            }else{
-                $this->error('添加失败！');
-            }
+
         }else{
             $this->error('非法操作！');
         }

@@ -76,11 +76,11 @@
         </ol>
     </div>
     
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding: 0;">
         <div class="title-tab">
             <div class="table-cont clearfix form-boder">
                 <div class="main-hd-btn ">
-                    <form action="<?php echo U('Home/consume/index');?>" method="get" id="search">
+                    <form action="<?php echo U('Admin/collect/getList');?>" method="get" id="search">
                         <div class="form-group col-sm-2">
                             <select name="search" id="search-type" class="form-control">
                                 <option value="1" >按类型搜索</option>
@@ -98,7 +98,8 @@
                     <button type="submit" id="add" data-toggle="modal" data-target="#consumeModal" class="btn btn-success ">添加</button>
                 </div>
                 <div class="col-lg-12 form-boder"  >
-                    <table class="table table-hover table-bordered">
+                    <table class="table table-hover table-bordered" id="listForm">
+
                         <thead>
                         <tr>
                             <th>序号</th>
@@ -116,19 +117,20 @@
                                 <td><?php echo ($vo["id"]); ?></td>
                                 <td><?php echo ($vo["name"]); ?></td>
                                 <td><?php echo ($vo["url"]); ?></td>
-                                <td data-id="<?php echo ($vo["t_id"]); ?>"><?php echo ($vo["type"]); ?></td>
+                                <td data-id="<?php echo ($vo["t_id"]); ?>"><?php echo ($vo["typename"]); ?></td>
                                 <td><?php echo ($vo["keywords"]); ?></td>
                                 <td><?php echo ($vo["date"]); ?></td>
                                 <td><?php echo ($vo["note"]); ?></td>
                                 <td>
-                                    <a href="<?php echo U('Home/consume/edit',array('id'=>$vo['id']));?>" class="btn btn-info btn-sm js-consume-edit" data-id="<?php echo ($vo["id"]); ?>">编辑</a>
-                                    <a href="<?php echo U('Home/consume/del',array('id'=>$vo['id']));?>" data-id="<?php echo ($vo["id"]); ?>" class="btn btn-danger btn-sm js-consume-del">删除</a>
+                                    <!--<a href="<?php echo U('Home/consume/edit',array('id'=>$vo['id']));?>" class="btn btn-info btn-sm js-consume-edit" data-id="<?php echo ($vo["id"]); ?>">编辑</a>-->
+
+                                    <a data-href=" <?php echo U('Admin/collect/del');?>" data-id="<?php echo ($vo["id"]); ?>" class="btn btn-danger btn-sm js-collect-del">删除</a>
                                 </td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                     </table>
                 </div>
-                <div class="col-md-12 form-boder">
+                <div class="col-md-12 form-boder" style="padding: 0;">
                     <div style="width: 600px;height: 80px; margin-right: auto;margin-left: auto;">
                         <ul class="pagination">
                             <?php echo ($page); ?>
@@ -147,7 +149,7 @@
                     </button>
                     <h4 class="modal-title">添加收录</h4>
                 </div>
-                <form class="form-horizontal " role="form" id="collectForm" aria-autocomplete="off"  aria-multiline="true" method="post" action="<?php echo U('Admin/Collect/add');?>" style="padding-top: 10px;">
+                <form class="form-horizontal " role="form" id="collectForm"  aria-autocomplete="off"  aria-multiline="true" method="post" action="<?php echo U('Admin/Collect/add');?>" style="padding-top: 10px;">
 
                     <div class="modal-body modal-cont">
                             <div class="form-group" style="padding:0 20px;">
@@ -164,8 +166,15 @@
                                 <input id="url" type="text" class="form-control" required="required"  name="url" >
                             </div>
                             <div class="form-group" style="padding:0 20px;">
-                                <label for="type">类型：</label>
-                                <input type="text" name="type" id="type" class="form-control" value="" required="required" aria-autocomplete="off">
+                               <div class="col-sm-2" style="text-align: right;">
+                                   <label for="type" style="padding-top: 7px;">类型：</label>
+                               </div>
+                                <div class="col-sm-5">
+                                    <select name="type" class="form-control">
+                                        <?php if(is_array($type)): $i = 0; $__LIST__ = $type;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo["id"]); ?>"><?php echo ($vo["typename"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    </select>
+                                </div>
+
                             </div>
 
                             <div class="form-group" style="padding:0 20px;">

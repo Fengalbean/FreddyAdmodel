@@ -22,4 +22,20 @@ class AdminController extends Controller {
         }
 
     }
+    public function data($status=1,$string=""){
+        $array = [];
+        if($status == 1){
+            $array = [
+                'status' => $status,
+                'msg' => $string,
+            ];
+        }else{
+            $array = [
+                'status' => $status,
+                'msg' => $string,
+            ];
+        }
+        return json_encode($array);
+
+    }
 }

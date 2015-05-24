@@ -14,6 +14,7 @@ seajs.config({
         'jqeasyui': '/Public/Js/Pulgins/jquery-easyui/jquery.easyui.min.js',
         'jqeasyuilang':'/Public/Js/Pulgins/jquery-easyui/locale/easyui-lang-zh_CN.js',
         'jquery_validate': '/Public/Js/Pulgins/jquery-validate/1.11/jquery.validate.min.js',
+        'jquery_form': '/Public/Js/Pulgins/jquery-validate/jquery.form.js',
         'common':'/Public/Js/App/base/common.1.2.0.js'
     },
 
