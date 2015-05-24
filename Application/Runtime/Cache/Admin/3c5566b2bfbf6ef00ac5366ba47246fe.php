@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/Public/Css/Base/bootstrap/3.3.0/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="/Public/Css/Base/flatui/dist/css/flat-ui.min.css">
     <script type="text/javascript" src="/Public/Js/Lib/seajs/2.3.0/sea.js"></script>
-    <script type="text/javascript" src="/Public/Js/Conf/baseConfig.js"></script>
+    <script type="text/javascript" src="/Public/Js/Conf/adminConfig.js"></script>
 </head>
 <body style="background: #1ABC9C">
 <div class="container-fluid" >

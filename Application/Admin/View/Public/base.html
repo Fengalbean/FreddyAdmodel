@@ -5,7 +5,8 @@
     <title>后台管理</title>
 
     <link rel="stylesheet" type="text/css" href="__CSS__/Base/bootstrap/3.3.0/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="__CSS__/App/index.css">
+    <!--<link rel="stylesheet" type="text/css" href="__CSS__/Base/flatui/dist/css/flat-ui.min.css">-->
+    <link rel="stylesheet" type="text/css" href="__CSS__/App/admin/index.css">
     <block name="css"></block>
     <!--<link rel="stylesheet" type="text/css" href="__CSS__/Base/easyui/default/easyui.css">-->
     <!--<link rel="stylesheet" type="text/css" href="__CSS__/Base/easyui/icon.css">-->
@@ -13,12 +14,12 @@
     <link rel="stylesheet" type="text/css" href="__CSS__/Base/siderbar/css/style.css">
     <link rel="stylesheet" type="text/css" href="__CSS__/Base/public.css">
     <script type="text/javascript" src="__JS__/Lib/seajs/2.3.0/sea.js"></script>
-    <script type="text/javascript" src="__JS__/Conf/baseConfig.js"></script>
+    <script type="text/javascript" src="__JS__/Conf/adminConfig.js"></script>
 
 </head>
 <body>
 <!--头部-->
-<div class="global-fluid">
+<div class="global-fluid" style="background: #34495E">
     <div class="global-container">
         <div id="header">
 
@@ -36,8 +37,11 @@
             <li class="active">配置菜单</li>
         </ol>
     </div>
-    <block name="main"></block>
+    <block name="main">
+
+    </block>
 </div>
+
 
 <script type="text/javascript">
     seajs.use(['baseController.js','base/siderbar.js'], function(main,Accordion) {

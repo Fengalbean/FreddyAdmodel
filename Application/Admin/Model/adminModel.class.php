@@ -7,7 +7,7 @@
  */
 namespace Admin\Model;
 
-class Admin extends model {
+class AdminModel extends model {
     public $test;
     protected $_validate = array(
         array(验证字段1,验证规则,错误提示,[验证条件,附加规则,验证时间]),

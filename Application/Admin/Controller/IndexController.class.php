@@ -9,11 +9,11 @@ class IndexController extends Controller {
         if(!IS_POST)  $this->error('非法操作');
         $data['username'] = I('post.username','','htmlspecialchars');
         $data['passwords'] = md5(I('post.passwords','','htmlspecialchars'));
-        $model = D('Admin');
+        $model = M('user');
         $result = $model->field('id')->where($data)->count();
-        if($result){
-//            $this->success('登录成功', 'Index/manage');
-            $this->redirect('Index/manage', array('cate_id' => 2), 2);
+        dump($result);
+        if($result > 0){
+            $this->success('登录成功', 'manage');
         }else{
             $this->error('操作失败');
         }
